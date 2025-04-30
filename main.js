@@ -4,8 +4,12 @@ const canvasCtx = canvasElement.getContext("2d");
 const statusDiv = document.getElementById("status");
 const logContainer = document.getElementById("log-container");
 
+// Import audio files
+import wink1Url from "./wink1.mp3";
+import wink2Url from "./wink2.mp3";
+
 // Sound effects
-const winkSounds = [new Audio("wink1.mp3"), new Audio("wink2.mp3")];
+const winkSounds = [new Audio(wink1Url), new Audio(wink2Url)];
 let winkSoundIndex = 0;
 
 let drawLandmarksEnabled = false;
