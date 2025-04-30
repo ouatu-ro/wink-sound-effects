@@ -1,5 +1,5 @@
 export default {
-  base: "/",
+  base: "/wink-sound-effects/",
   server: {
     port: 5173,
     open: true,
