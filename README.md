@@ -1,6 +1,6 @@
 # Wink Sound Effects
 
-A simple web application that uses MediaPipe to detect blinks and play a sound effect when a blink is detected.
+A simple web application that uses MediaPipe to detect blinks and play a sound effect when a blink is detected. :)
 
 ## Features
 
