@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import solid from "vite-plugin-solid";
 
 export default defineConfig({
-  base: "/wink-sound-effects/",
+  base: "./",
   plugins: [solid()],
   server: {
     host: "127.0.0.1",
