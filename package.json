@@ -2,10 +2,12 @@
   "name": "wink-sound-effects",
   "version": "1.0.0",
   "description": "Plays a sound when user blinks",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test": "node --test"
   },
   "dependencies": {},
   "devDependencies": {
